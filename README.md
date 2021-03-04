@@ -1,1 +1,1 @@
-https://tim-yoon.github.io/rsschool-cv/cv
+https://tim-yoon.github.io/rsschool-cv
