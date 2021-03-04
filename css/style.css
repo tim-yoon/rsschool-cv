@@ -1,0 +1,95 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+
+article {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5px 0;
+}
+
+.block{
+	background-color: #f0f2f0;
+}
+
+span {
+	font-weight: bold;
+}
+
+ul {
+  list-style-type: dot;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.content__cv {
+  display: flex;
+  max-width: 1080px;
+  padding: 50px 15px;
+  margin: 0 auto;
+
+}
+
+.content__img {
+  width: 200px;
+  margin-right: 40px;
+}
+
+.content__img .photo {
+  display: flex;
+  max-width: 100%;
+}
+
+.content {
+  flex-grow: 2;
+  width: 50%;
+}
+
+.border__name{
+	border-bottom: 1.5px solid #f0f2f0;
+}
+.border__code{
+	border-bottom: 1.5px solid #f0f2f0;
+}
+.border__lang{
+	border-bottom: 1.5px solid #f0f2f0;
+}
+.footer {
+	margin-top: 50px;
+	border-top: 1.5px solid #f0f2f0;
+	display: flex;
+	flex-direction: row;
+	background-color: #f0f2f0;
+	justify-content: center;
+}
+.git {
+	margin-top: 7px;
+	margin-right: 30px;
+}
+.rslogo{
+	display: flex;
+	justify-content: center;
+	max-width: 5%;
+}
+.youtube {
+	margin-left: 30px;
+	max-width: 50px;
+	margin-top: 7px;
+}
+p {
+	margin-right: 30px;
+}
